@@ -140,7 +140,7 @@ Get Filling Advice
 
 Get AI Advice
     [Arguments]    ${prompt}
-    ${headers}=    Create Dictionary    Authorization=${TOKEN}
+    ${headers}=    Create Dictionary    Authorization:${TOKEN}
 
     ${message}=    Create Dictionary
     ...    role=${ROLE}
